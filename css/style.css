@@ -1,33 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Playfair Display', serif;
 }
 
-ul { 
+ul {
   list-style: none;
+  display: flex;
 }
 
 a {
   text-decoration: none;
-  color: #164E63ff;
-  font-weight: 700;
 }
 
 .header-main {
   width: 100%;
-  height: 80px; 
+  height: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #1E1E1E;
+  background-color: #ff0202e3;
+}
+
+.orange {
+  width: 100%;
+  height: 17vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: column; */
-  padding: 60px 60px;
-  background-color: #164E63ff;
+  font-weight: 700;
+  color: #1E1E1E;
+  background-color: #ff7f00;
+  justify-content: space-between;
 }
 
+.orange-text {
+  margin: 20px;
+}
+
+.foto-perfil > img {
+  width: 245px;
+  height: 301px;
+  margin-top: 30px;
+  margin-left: 5vh;
+  border-radius: 18%;
+}
+
+.yellow {
+  width: 100%;
+  height: 17vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #1E1E1E;
+  background-color: #F9D307;
+}
+
+.yellow-text {
+  margin: 20px;
+}
+
+.green {
+  width: 100%;
+  height: 17vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #1E1E1E;
+  background-color: #086b0d;
+}
+
+.green-text {
+  margin: 20px;
+}
+
+.blue {
+  width: 100%;
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #000000;
+  background-color: #0617b6e0;
+}
+
+.blue-text {
+  margin: 20px;
+}
+
+.purple {
+  width: 100%;
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #1E1E1E;
+  background-color: #800080;
+}
+
+.purple-text {
+  margin: 20px;
+}
+
+.purple-images{
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
