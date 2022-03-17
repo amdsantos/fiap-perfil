@@ -28,6 +28,11 @@ a {
   font-weight: 700;
   color: #1E1E1E;
   background-color: #ff0202e3;
+  transition: .5s;
+}
+
+.header-main:hover {
+  transform: scale(1.2);
 }
 
 .orange {
@@ -39,13 +44,18 @@ a {
   font-weight: 700;
   color: #1E1E1E;
   background-color: #ff7f00;
+  transition: .5s;
+}
+
+.orange:hover {
+  transform: scale(1.2);
 }
 
 .orange-text {
   margin: 20px;
 }
 
-.foto-perfil > img {
+.foto-perfil>img {
   width: 245px;
   height: 301px;
   margin-top: 30px;
@@ -62,6 +72,11 @@ a {
   font-weight: 700;
   color: #1E1E1E;
   background-color: #F9D307;
+  transition: .5s;
+}
+
+.yellow:hover {
+  transform: scale(1.2);
 }
 
 .yellow-text {
@@ -77,6 +92,11 @@ a {
   font-weight: 700;
   color: #1E1E1E;
   background-color: #086b0d;
+  transition: .5s;
+}
+
+.green:hover {
+  transform: scale(1.2);
 }
 
 .green-text {
@@ -92,6 +112,11 @@ a {
   font-weight: 700;
   color: #000000;
   background-color: #0617b6e0;
+  transition: .5s;
+}
+
+.blue:hover {
+  transform: scale(1.2);
 }
 
 .blue-text {
@@ -105,15 +130,20 @@ a {
   align-items: center;
   justify-content: center;
   background-color: #800080;
+  transition: .5s;
+}
+
+.purple:hover {
+  transform: scale(1.2);
 }
 
 .purple-text {
   margin: 20px;
 }
 
-.purple-images{
+.purple-images {
   width: 100px;
-  height: 30px;
+  height: 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
