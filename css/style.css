@@ -39,7 +39,6 @@ a {
   font-weight: 700;
   color: #1E1E1E;
   background-color: #ff7f00;
-  justify-content: space-between;
 }
 
 .orange-text {
@@ -105,8 +104,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  color: #1E1E1E;
   background-color: #800080;
 }
 
